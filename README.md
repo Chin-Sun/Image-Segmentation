@@ -34,3 +34,4 @@ Gaussian mixture data using the GMM and EM algorithms learned in objective 2
  
 
 ### The Introduction of Segmented Images
+![image](Segmented Images/Scenario1/output.png)
