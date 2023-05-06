@@ -1,1 +1,7 @@
-# Image-Segmentation
+# Image Segmentation 
+## Image Segmentation Using K-means Clustering, Gaussian Mixture model and Expectation Maximization
+K-means clustering and Gaussian Mixture Models (GMM) are two popular methods for data clustering. K-means divides data into K clusters based on distance between data points, while GMM models the data as a combination of Gaussian distributions. The GMM method uses the Expectation-Maximization (EM) algorithm for parameter estimation. The EM algorithm alternates between an estimation step, which assigns data to clusters or distributions, and a maximization step, which updates the cluster/distribution parameters to better fit the data. Convergence is checked by evaluating the log likelihood, and the process is repeated until convergence is achieved. 
+
+This study investigates the performance of the K-means algorithm and Gaussian Mixture Model (GMM) with Expectation Maximization (EM) for image segmentation. The K-means 
+algorithm was implemented for grayscale and color images with and without intensity histograms. A custom function was developed for fitting data to Gaussian Mixture, which was used for grayscale and color image segmentation, and compared with the Gaussian Mixture class from sklearn library. The function was also used for fitting Gaussian Mixture to 2-D datasets and compared with the input signals. The study provides a comprehensive analysis of the strengths and limitations of K-means and GMM-EM for image segmentation.
+
