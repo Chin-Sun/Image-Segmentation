@@ -1,0 +1,2 @@
+“Original_1.png”is the plotting image of the 2D dataset according to the given file in Matlab.
+"Segmented_1.png" is the segmented plotting image of that dataset using the fit funtion in fitfunction.py. Each color represents a different Gaussian Signal.

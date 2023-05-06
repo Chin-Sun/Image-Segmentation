@@ -1,0 +1,2 @@
+“Image2_segmented_grayscale_image_k=4_compare.jpg”is the segmented image using fit function from sklearn.mixture
+"street_view_10_cut_segmented_greyscale_image_k=4.jpg" is the segmented image using fit function fron fitfunction.py
