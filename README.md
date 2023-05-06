@@ -34,4 +34,9 @@ Gaussian mixture data using the GMM and EM algorithms learned in objective 2
  
 
 ### The Introduction of Segmented Images
-![image](Segmented Images/Scenario1/output.png)
+##### 1. Grayscale image segmentation using K-means with histogram
+When K was set to 8, the resulting segmented image was obtained, indicating successful segmentation of the original image into 8 clusters.
+![image](https://github.com/Chin-Sun/Image-Segmentation/blob/fdad1b86d18377c13c758a8e05829c8cef6727af/Segmented%20Images/Scenario1/output.png)
+##### 2. Grayscale image segmentation using K-means without histogram
+Similar to the previous section, when K was set to 8, successful segmentation of the original image into 8 clusters was achieved, resulting in a segmented image.   
+![image](https://github.com/Chin-Sun/Image-Segmentation/blob/fdad1b86d18377c13c758a8e05829c8cef6727af/Segmented%20Images/Scenario1/output.png)
