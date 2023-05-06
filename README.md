@@ -38,5 +38,21 @@ Gaussian mixture data using the GMM and EM algorithms learned in objective 2
 When K was set to 8, the resulting segmented image was obtained, indicating successful segmentation of the original image into 8 clusters.
 ![image](https://github.com/Chin-Sun/Image-Segmentation/blob/fdad1b86d18377c13c758a8e05829c8cef6727af/Segmented%20Images/Scenario1/output.png)
 ##### 2. Grayscale image segmentation using K-means without histogram
-Similar to the previous section, when K was set to 8, successful segmentation of the original image into 8 clusters was achieved, resulting in a segmented image.   
-![image](https://github.com/Chin-Sun/Image-Segmentation/blob/fdad1b86d18377c13c758a8e05829c8cef6727af/Segmented%20Images/Scenario1/output.png)
+Similar to the previous section, when K was set to 8, successful segmentation of the original image into 8 clusters was achieved, resulting in a segmented image.     
+![image](https://github.com/Chin-Sun/Image-Segmentation/blob/0cf09ece5cac1dd822cbf3549b01c85262b98aaa/Segmented%20Images/Scenario2/output.png)
+##### 2.5. Color image segmentation using K-means without histogram
+When setting K to 4, successful segmentation of the original image into 4 clusters was achieved     
+![image](https://github.com/Chin-Sun/Image-Segmentation/blob/0cf09ece5cac1dd822cbf3549b01c85262b98aaa/Segmented%20Images/Scenario2.5/output.png)  
+##### 3. Grayscale image segmentation result using self-defined GMM
+When K was set to 4 and GMM was initialized with random means and covariances, successful segmentation of the original image into 4 classes was achieved.  
+![image](https://github.com/Chin-Sun/Image-Segmentation/blob/0cf09ece5cac1dd822cbf3549b01c85262b98aaa/Segmented%20Images/Scenario2.5/output.png)  
+To evaluate the performance of our self-defined GMM and EM implementation, a comparison to the "GaussianMixture" class from the "sklearn.mixture" library was performed. Both methods were run on the same original image and with the same settings. The comparison of the resulting segmented images suggests that our implementation shows promising performance
+##### 4. Color image segmentation result using self-defined GMM
+When K was set to 10 and GMM was initialized with random means and covariances, the original image was successfully segmented into 10 classes.  
+![image](https://github.com/Chin-Sun/Image-Segmentation/blob/0cf09ece5cac1dd822cbf3549b01c85262b98aaa/Segmented%20Images/Scenario2.5/output.png)    
+Similarly, a comparison to the "GaussianMixture" class from the "sklearn.mixture" library was performed, with both methods being run on the same original image and with the same settings. The comparison of the resulting segmented images suggests that our implementation shows promising performance
+##### 5. 2-D dataset segmentation using GMM and EM
+The original dataset distribution was obtained and plotted as follows.
+![image](https://github.com/Chin-Sun/Image-Segmentation/blob/0cf09ece5cac1dd822cbf3549b01c85262b98aaa/Segmented%20Images/Scenario2.5/output.png)    
+Knowing that K equals 4, we have obtained the segmented distribution as follows, which is the same as the four Gaussian signals that we used to generate the input dataset. The segmentation successfully regained each of the four input Gaussian signals, indicating the effectiven
+![image](https://github.com/Chin-Sun/Image-Segmentation/blob/0cf09ece5cac1dd822cbf3549b01c85262b98aaa/Segmented%20Images/Scenario2.5/output.png) 
